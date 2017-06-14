@@ -4,8 +4,8 @@ Jython bindings to Eclipse January to provide NumPy-like ndarrays
 
 ## Quick start
 
-Firstly, install Jython and virtualenv. Then configure a custom
-environment for Jython:
+Firstly, install [Jython](https://www.jython.org) and [virtualenv](https://virtualenv.pypa.io/en/stable/).
+Then configure a custom environment for Jython:
 
     $ virtualenv -p /path/to/jython jython-env
     $ source jython-env/bin/activate
@@ -19,7 +19,7 @@ To use, first ensure you are using the `jython-env` created earlier:
      
     $ source jython-env/bin/activate
 
-then start the Jython interperter:
+then start the Jython interpreter:
 
     $ cd january-jython/january
     $ CLASSPATH="../jars/*" python
