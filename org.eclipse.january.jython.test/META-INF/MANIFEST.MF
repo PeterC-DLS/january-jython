@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Test Jython binding code
+Bundle-SymbolicName: org.eclipse.january.jython.test
+Bundle-Version: 1.0.0.qualifier
+Fragment-Host: org.eclipse.january.jython;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.junit;bundle-version="4.12.0"
