@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Jython binding
+Bundle-SymbolicName: org.eclipse.january.jython
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: org.python.core
+Require-Bundle: org.eclipse.january;bundle-version="2.0.0"
+Export-Package: org.eclipse.january.jython
